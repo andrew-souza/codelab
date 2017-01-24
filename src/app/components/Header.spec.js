@@ -40,7 +40,7 @@ describe('Header component', function () {
     var element = $compile('<header-component></header-component>')($rootScope);
     $rootScope.$digest();
     var header = element.find('h1');
-    expect(header.html().trim()).toEqual('todos');
+    expect(header.html().trim()).toEqual('( ͡° ͜ʖ ͡°)');
   }));
 
   it('should get the todos binded to the component', angular.mock.inject(function ($rootScope, $compile, $componentController) {
